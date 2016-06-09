@@ -57,3 +57,35 @@ console.log(brownOnly);
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 console.log(orderedValues);
 
+var randomThingsArray = genericNumberArray.concat(colors);
+console.log(randomThingsArray);
+
+var updatedOrders = orderQueue.concat({takeOut: 'fries'}, {takeOut: 'more fries'});
+console.log(updatedOrders);
+
+var sentence = scrambledWords.join(" ");
+console.log(sentence);
+
+var myFruits = fruitCollection.join(" + ");
+console.log(sentence);
+
+var favoriteFriends = friends.slice(1, 3);
+console.log(friends);
+
+var owesMoney = friends.slice(3, 6);
+console.log(friends);
+
+var monthNameString = monthNames.toString();
+console.log(monthNames);
+
+var favoriteColor = colors.indexOf('Red');
+console.log(colors);
+
+var favoriteEvenNumber = mixedNums.indexOf(76);
+console.log(mixedNums);
+
+var lastNine = bulkNumbers.lastIndexOf(9);
+console.log(bulkNumbers);
+
+var lastFive = bulkNumbers.lastIndexOf(5);
+console.log(bulkNumbers);
